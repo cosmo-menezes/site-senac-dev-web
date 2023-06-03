@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <style>
+        body {
+            background-color: #f3c706;
+            font-size: 1.2em;
+            color: #061ef3;
+        }
+
+        h2 {
+            font-size: 1.75em; /* 28/16 = 1.75 */
+            background-color: #c0262c;
+            border-radius: 10px;
+            color: #fff;
+            letter-spacing: .1em;
+            padding: 7px;
+            width: 316px;
+        }
+
+        form {
+            background-color: #c0262c;
+            border-radius: 10px;
+            margin: 0px;
+            padding: 20px;
+        }
+
+        input {
+            background-color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            color: #061ef3;
+            padding: 10px 30px;
+            margin: 20px 0;
+            text-shadow: 2px 2px 5px #00000000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <li><a href="file:///C:/Users/cosmo/OneDrive/%C3%81rea%20de%20Trabalho/desenvolvedor-web-senac/08-projeto/index.html">Home</a></li>
+    <h1>Meu amigo cão - Pet shop</h1>
+    <h2>Boletim mensal</h2>
+    <h3>Assine já</h3>
+    <p>Fazendo sua assinatura<br>
+    voce receberá mensalmente informações sobre nossos produtos, serviços, eventos e descontos.</p>
+    <form method="post" id="boletim" action="aobrigado.html">
+        <p><label for="nome">Nome:</label><input type="text" name="nome" id="nome" placeholder="Digite seu nome"></p>
+        <p><label for="email">Email:</label><input type="email" name="email" id="email" placeholder="Digite seu endereço de email" size="30"></p>
+
+        <input type="submit"  value="Enviar" >
+    </form>
+</body>
+</html>
